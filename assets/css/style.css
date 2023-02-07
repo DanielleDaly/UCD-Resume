@@ -13,6 +13,10 @@
     background-color: #f4f4f4 ;
 }
 
+.bg-color-content {
+    background-color: #fff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -333,5 +337,10 @@ footer {
     position: absolute;
     left: -6px;
     background: #fafafa;
+
+}
+
+---------------------------------------
+.contact-heading {
 
 }
