@@ -340,7 +340,36 @@ footer {
 
 }
 
----------------------------------------
+/* ---------------------------------------Contact Form */
+
 .contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+.center-form {
+    padding-top: 10px;
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+/* ---------------------------------------Media Queries */
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        max-height: 240px;
+        max-width: 50%;
+        margin: 0 auto;
+    }
 
 }
