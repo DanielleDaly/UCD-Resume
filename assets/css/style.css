@@ -364,12 +364,11 @@ button[type="submit"] {
 
 /* ---------------------------------------Media Queries */
 
-@media(min-width:992px) {
+@media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
-        max-height: 240px;
+        min-height: 240px;
         max-width: 50%;
         margin: 0 auto;
     }
-
 }
